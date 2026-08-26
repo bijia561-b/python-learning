@@ -1,0 +1,12 @@
+name=input("请输入玩家名称")
+channel=input("请输入玩家来源渠道")
+level=int(input("请输入玩家等级"))
+recharge=float(input("请输入累计充值金额"))
+
+print()
+print("=====玩家信息卡=====")
+print(f"玩家名称：{name}")
+print(f"来源渠道：{channel}")
+print(f"当前等级：{level}")
+print(f"累计充值：{recharge:.2f}元")
+print("========================")
