@@ -15,7 +15,6 @@ for feature in features:
     if feature["status"]=="online":
         online_features=online_features+1
     total_call_count=total_call_count+feature["call_count"]
-
 print(f"功能总数：{len(features)}")
 print(f"在线功能数：{online_features}")
 print(f"总调用次数：{total_call_count}次")
