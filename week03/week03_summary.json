@@ -1,0 +1,13 @@
+{
+  "total_line_count": 7,
+  "category_counts": {
+    "其它": 1,
+    "性能": 1,
+    "缺失": 1,
+    "社交": 1,
+    "登录": 1,
+    "付费": 2
+  },
+  "source_file": "week03/week03_review_feedback.txt",
+  "valid_feedback_count": 6
+}
