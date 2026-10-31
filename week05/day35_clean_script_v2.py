@@ -1,3 +1,4 @@
+# Day 35 标准参考版 v2：活动数据清洗与每日复盘汇总脚本
 # 字段说明
 # player：玩家名
 # channel：渠道；空值填「未知」
@@ -7,6 +8,7 @@
 import pandas as pd
 from pathlib import Path
 
+# 1. 配置路径与输出文件夹
 project_dir = Path(__file__).parent
 input_path = project_dir / "day35_dirty_activity.csv"
 output_dir = project_dir / "output"
@@ -15,6 +17,7 @@ output_dir.mkdir(exist_ok=True)
 cleaned_path = output_dir / "day35_cleaned_v2.csv"
 review_path = output_dir / "day35_daily_review_v2.csv"
 
+# 2. 读取原始数据，保留 raw 原表不动，在副本 table 上清洗
 raw = pd.read_csv(input_path)
 print("清洗前行数:", len(raw))
 print("每列空值个数:")
@@ -27,6 +30,7 @@ table["channel"] = table["channel"].fillna("未知")
 table = table.drop_duplicates()
 print("清洗后行数:", len(table))
 
+# 3. 统计渠道收入与每日活跃、新增、收入
 channel_revenue = table.groupby("channel")["recharge"].sum()
 print("收入最高渠道:", channel_revenue.idxmax(), channel_revenue.max())
 
@@ -43,6 +47,7 @@ daily.index.name = "日期"
 print("活跃最多的一天:", daily["活跃"].idxmax(), daily["活跃"].max())
 print("收入最高的一天:", daily["收入"].idxmax(), daily["收入"].max())
 
+# 4. 导出清洗明细与复盘表
 table.to_csv(cleaned_path, index=False, encoding="utf-8-sig")
 daily.to_csv(review_path, encoding="utf-8-sig")
 print("清洗明细已导出:", cleaned_path.exists())

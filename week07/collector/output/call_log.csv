@@ -1,0 +1,9 @@
+﻿requested_at,name,url,status_code,elapsed_seconds,ok,error,attempts
+2026-10-13T10:31:12,echo,https://httpbin.org/get,200.0,1.877,True,,1
+2026-10-13T10:31:14,missing,https://httpbin.org/status/404,404.0,1.784,False,http_404,1
+2026-10-13T10:31:21,slow,https://httpbin.org/delay/5,,,False,timeout,3
+2026-10-13T10:31:23,weather,https://api.open-meteo.com/v1/forecast?latitude=31.23&longitude=121.47&current=temperature_2m,200.0,1.598,True,,1
+2026-10-13T10:31:41,missing,https://httpbin.org/status/404,404.0,1.487,False,http_404,1
+2026-10-13T10:31:48,slow,https://httpbin.org/delay/5,,,False,timeout,3
+2026-10-31T15:07:40,missing,https://httpbin.org/status/404,404.0,1.047,False,http_404,1
+2026-10-31T15:07:45,slow,https://httpbin.org/delay/5,,,False,timeout,3

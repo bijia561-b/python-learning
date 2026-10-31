@@ -1,0 +1,4 @@
+﻿requested_at,url,status_code,elapsed_seconds,ok,error,timeout_limit
+2026-10-10T18:32:23,https://httpbin.org/get,200.0,1.619,True,,10.0
+2026-10-10T18:32:25,https://httpbin.org/status/404,404.0,1.398,False,,10.0
+2026-10-10T18:32:26,https://httpbin.org/delay/5,,,False,timeout,

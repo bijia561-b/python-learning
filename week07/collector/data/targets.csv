@@ -1,0 +1,5 @@
+name,url,timeout
+echo,https://httpbin.org/get,10
+missing,https://httpbin.org/status/404,10
+slow,https://httpbin.org/delay/5,1
+weather,https://api.open-meteo.com/v1/forecast?latitude=31.23&longitude=121.47&current=temperature_2m,10

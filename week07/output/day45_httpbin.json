@@ -1,0 +1,15 @@
+{
+  "args": {
+    "feature": "ai_客服",
+    "player": "小林"
+  },
+  "headers": {
+    "Accept": "*/*",
+    "Accept-Encoding": "gzip, deflate, zstd",
+    "Host": "httpbin.org",
+    "User-Agent": "python-requests/2.34.0",
+    "X-Amzn-Trace-Id": "Root=1-6ac9b3c4-64d3cbcf0127a6135be7b8e3"
+  },
+  "origin": "101.204.70.131",
+  "url": "https://httpbin.org/get?player=小林&feature=ai_客服"
+}
