@@ -1,0 +1,4 @@
+﻿feature,call_count,fail_count,success_rate_pct,avg_latency_ms,total_cost
+ai_总结,5,3,40.0,1400.0,0.1
+ai_客服,5,1,80.0,373.3,0.08
+ai_翻译,2,0,100.0,195.2,0.02
