@@ -1,0 +1,23 @@
+[
+  {
+    "feedback": "充了 68 元月卡，半小时了还没到账，很着急。",
+    "temperature": 0,
+    "system_prompt": "你是游戏反馈分类器。只输出一个 JSON 对象，不要 Markdown，不要解释。\n字段允许值：\n- category: 性能、充值、登录、社交、其它\n- emotion: 愤怒、焦虑、中性\n- priority: 高、中、低\n- need_human: true 或 false\n- reason: 不超过 30 字的字符串\n充值未到账、无法登录、反复卡顿时 need_human 为 true。\n",
+    "user_prompt": "玩家反馈：充了 68 元月卡，半小时了还没到账，很着急。\n请按系统规则只输出一个 JSON 对象。",
+    "est_input_tokens": 298
+  },
+  {
+    "feedback": "进图就卡，打副本掉到 10 帧，根本没法玩。",
+    "temperature": 0,
+    "system_prompt": "你是游戏反馈分类器。只输出一个 JSON 对象，不要 Markdown，不要解释。\n字段允许值：\n- category: 性能、充值、登录、社交、其它\n- emotion: 愤怒、焦虑、中性\n- priority: 高、中、低\n- need_human: true 或 false\n- reason: 不超过 30 字的字符串\n充值未到账、无法登录、反复卡顿时 need_human 为 true。\n",
+    "user_prompt": "玩家反馈：进图就卡，打副本掉到 10 帧，根本没法玩。\n请按系统规则只输出一个 JSON 对象。",
+    "est_input_tokens": 297
+  },
+  {
+    "feedback": "今天天气不错，随便看看。",
+    "temperature": 0,
+    "system_prompt": "你是游戏反馈分类器。只输出一个 JSON 对象，不要 Markdown，不要解释。\n字段允许值：\n- category: 性能、充值、登录、社交、其它\n- emotion: 愤怒、焦虑、中性\n- priority: 高、中、低\n- need_human: true 或 false\n- reason: 不超过 30 字的字符串\n充值未到账、无法登录、反复卡顿时 need_human 为 true。\n",
+    "user_prompt": "玩家反馈：今天天气不错，随便看看。\n请按系统规则只输出一个 JSON 对象。",
+    "est_input_tokens": 285
+  }
+]

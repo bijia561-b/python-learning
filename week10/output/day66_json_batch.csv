@@ -1,0 +1,4 @@
+﻿feedback,status_code,raw_output,ok,error,category
+充了 68 元月卡，半小时了还没到账。,200,"{""category"":""充值"",""emotion"":""焦虑"",""priority"":""高"",""need_human"":true,""reason"":""充值未到账半小时，需人工核查"" }",True,,充值
+进图就卡，掉到 10 帧，没法打。,200,"{""category"":""性能"",""emotion"":""愤怒"",""priority"":""高"",""need_human"":true,""reason"":""进图即严重掉帧，无法正常游玩""}",True,,性能
+今天天气不错，随便看看。,200,"{""category"":""其它"",""emotion"":""中性"",""priority"":""低"",""need_human"":false,""reason"":""与游戏无关的闲聊，无异常诉求""}",True,,其它

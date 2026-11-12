@@ -1,0 +1,4 @@
+﻿feedback,attempts,status_code,output,prompt_tokens,completion_tokens,cost_yuan,error
+充了 68 元月卡，半小时了还没到账。,1,200,充值,66,60,0.000306,
+进图就卡，掉到 10 帧，没法打。,1,200,性能,66,63,0.000318,
+登录一直转圈，进不去游戏。,1,200,登录,60,52,0.000268,
